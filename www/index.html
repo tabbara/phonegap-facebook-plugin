@@ -45,6 +45,7 @@
         <script type="text/javascript" src="js/facebookConnectPlugin.js"></script>
         <script type="text/javascript">
             var login = function () {
+                alert("a");
                 if (!window.cordova) {
                     var appId = prompt("Enter FB Application ID", "");
                     facebookConnectPlugin.browserInit(appId);
