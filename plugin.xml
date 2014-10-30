@@ -16,8 +16,8 @@
     
     <license>Apache 2.0</license>
     
-    <preference name="APP_ID" />
-    <preference name="APP_NAME" />
+    <preference name="713826502040102" />
+    <preference name="dotyTest_ios_t" />
     
     <engines>
     	<!-- Requires > 3.3.* because of the custom Framework tag for iOS [CB-5238] -->

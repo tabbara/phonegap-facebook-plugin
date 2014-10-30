@@ -33,7 +33,7 @@
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <div> TESTING </div>
+            <div> TESTING 1</div>
             <div class="event listening button" onclick="login();">Login with Facebook</div>
             <div class="event listening button" onclick="showDialog();">Show Dialog with Facebook</div>
             <div class="event listening button" onclick="apiTest();">Test API with Facebook</div>
@@ -46,7 +46,6 @@
         <script type="text/javascript" src="js/facebookConnectPlugin.js"></script>
         <script type="text/javascript">
             var login = function () {
-                alert("a");
                 if (!window.cordova) {
                     var appId = prompt("Enter FB Application ID", "");
                     facebookConnectPlugin.browserInit(appId);
